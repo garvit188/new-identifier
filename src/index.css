@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #faf7f2;
+  --surface: #ffffff;
+  --surface-hover: #f5f0e8;
+  --ink: #1a1612;
+  --ink-muted: #7a7168;
+  --ink-faint: #b5aba0;
+  --border: #e8e0d6;
+  --accent: #b5673a;
+  --accent-subtle: #f0e4d8;
+  --accent-gold: #b08d57;
+  --radius: 16px;
+  --radius-sm: 10px;
+  --shadow: 0 1px 3px rgba(26,22,18,0.06), 0 4px 12px rgba(26,22,18,0.04);
+  --shadow-lg: 0 4px 16px rgba(26,22,18,0.08), 0 12px 40px rgba(26,22,18,0.06);
+  --transition: 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  padding: 24px;
+}
